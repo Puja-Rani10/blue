@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 10px 0;
+   background-color:#121B2A;
+}
+.wrapper{
+   overflow: hidden;
+   margin: 0 auto;
+   width: 80%;
+   /*border: 1px solid red;*/
+}
+.logo{
+	width: 15%;
+    /*border: 1px solid yellow;*/
+    float: left;
+}
+.logo img{
+      width: 100%;
+}
+.menu{
+	width: 70%;
+    /*border: 1px solid lightgreen;*/
+    float: right;
+
+}
+.menu ul{
+   float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    margin-top: 28px
+}
+.menu ul li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    display: block;
+    font-weight: 300;
+    color: white;
+    transition: .3s;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+   color: #1974A9;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*min-height: 415px;*/
+}
+.b_content{
+   margin-top: 200px;
+   margin-bottom: 50px;
+   width: 45%; 
+   line-height: 0;
+}
+.b_content p:first-child{
+	color: white;
+	font-family: sans-serif;
+	
+	font-weight: normal;
+}
+
+.b_content h1{
+	color: #0075B8;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+.b_content:last-child p{
+     color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: sans-serif;
+
+}
+.b_content button{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #545454;
+	font-size: 18px;
+	margin-top: 20px;
+	background-color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.b_content button span{
+	background-color: blue;
+	padding: 5px 5px;
+	border-radius: 40%;
+	color: white;
+	margin-left: 10px; 
+}
+.b_content button:hover{
+	color: skyblue;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding: 50px 0;
+}
+.single{ 
+	width: 29.8%;
+	padding: 10px 18px;
+	float: left;
+	border-right:  1px solid white;
+
+}
+.single:last-child{
+	border-right: 0;
+}
+.title{
+	margin-bottom: 5px;
+}
+.main{
+	overflow: hidden;
+}
+.icon{
+	width: 25%;
+	float: left;
+	/*border: 1px solid yellow;*/
+}
+.icon img{
+	width: 100%;
+}
+.icon_content{
+	width: 70%;
+	float: left;
+	margin-top: 7px;
+	/*border: 1px solid white;*/
+}
+.icon_content h1{
+	color: white;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 5px;
+}
+.icon_content h2{
+	color: #0076BA;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: normal;
+	margin: 5px;
+}
+.content{}
+.content p{
+	color: white;
+	font-family: sans-serif;
+	line-height: 1.4;
+	font-size: 15px;
+}
+/*service end*/
